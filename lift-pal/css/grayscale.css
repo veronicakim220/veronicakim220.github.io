@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/gym-chest-workout.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -254,10 +254,10 @@ a:focus {
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 25px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    background: url(../img/testing.jpg) no-repeat center center scroll;
+    background-color: #782093;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -272,7 +272,11 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 150px;
+        padding-bottom: 30px;
+        margin-left: 0px;
+        width: 1300px;
+        background-color: #782093;
     }
 
     .download-section {
@@ -285,6 +289,12 @@ a:focus {
     }
 }
 
+.margin-bottom-150 {
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+
+
 .btn {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -295,8 +305,8 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #219ab3;
-    color: #219ab3;
+    border: 1px solid #000;
+    color: #000;
     background-color: transparent;
 }
 
@@ -304,8 +314,9 @@ a:focus {
 .btn-default:focus {
     border: 1px solid #219ab3;
     outline: 0;
-    color: #000;
+    color: #219ab3;
     background-color: #219ab3;
+    font-color: #000;
 }
 
 ul.banner-social-buttons {
@@ -323,6 +334,7 @@ ul.banner-social-buttons {
         display: block;
         margin-bottom: 20px;
         padding: 0;
+        font-color: black;
     }
 
     ul.banner-social-buttons li:last-child {
